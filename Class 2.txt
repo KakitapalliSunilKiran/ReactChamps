@@ -1,0 +1,17 @@
+In React THere are 2 ways to create project 
+1 is defpricated 
+npx create-react-app bankapp
+
+npm create vite@latest bankapp
+
+Linting tool is for beautification of the code 
+you will get mainly for extra space , extra lines
+following the code standards
+==================================
+Index.html -> will display in the browser 
+<Script> tag responsible jsx code from main.jsx
+babel intelligent enough to convert 
+jsx to javascript 
+in the Main.jsx you are integrating with 
+<div id="root"></div> 
+
