@@ -1,0 +1,24 @@
+Component is a peice of Front end screen 
+which can be reused when ever required 
+
+There are 2 types of Component
+
+functional component 
+class component 
+---------------------
+functional component:
+--------------------
+functional components supports Life cycle hooks
+this approach currently popular in the market 
+
+class components:
+-----------------
+This is out dated in the Market 
+==========================================
+npx create-react-app myapp
+npm create vite@latest myproj 
+========================================
+
+front end screen -> Spring 
+
+axio

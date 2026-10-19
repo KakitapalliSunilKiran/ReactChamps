@@ -1,17 +1,29 @@
 import Customer from "./Customer";
+import './App.css'
 
 function App()
 {
   const name="kakitapalli"
   const a = 20;
   const b=30;
+  function add(a,b){
+    console.log(a+b);
+  }
    return (
-    <>
-     <h1>Hey I am Sunil {name} </h1>
-     <h1>Hey I am Sunil {name} </h1>
-     <h1>{a+b}</h1>
-      <Customer x={a} y={b}/>
-    </>
+    <div className="appcss">
+      <div className="indi">
+        <Customer func={add} x={a}/>
+      </div>
+       <div className="indi">
+        <Customer func={add} x={a}/>
+      </div>
+       <div className="indi">
+        <Customer func={add} x={a}/>
+      </div>
+       <div className="indi">
+        <Customer func={add} x={a}/>
+      </div>
+    </div>
    );
 }
 export default App;

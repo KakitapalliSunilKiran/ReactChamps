@@ -1,0 +1,25 @@
+What is State:
+====================
+React features
+CRA 
+Veet 
+
+State is a Variable that stores data and is bound to ui 
+
+State automatically updates the UI when its value 
+Changes 
+
+State is created using useState Hook inside 
+a functional Component to store and manage the 
+data that updates UI 
+
+
+
+
+
+
+
+
+
+
+

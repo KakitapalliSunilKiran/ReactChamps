@@ -1,11 +1,15 @@
-function Customer(p){
+import './Customer.css'
+function Customer({y,func,x}){
    function handleClick(){
-    console.log(typeof p.func)
-     p.func(100,200);
+      console.log(x)
+      console.log(y)
+      console.log(func)
+      func(100,88);
    }
-    return <>
-        <h1>Hey ......I am Sunil from Custimer </h1>
-        <button onClick={handleClick}>Click me</button>
-     </> 
+    return <div className="custcss">
+        <h1>Hey ......I am Sunil from Custimer {x}</h1>
+        <button onClick={handleClick}>Click me </button>
+     </div> 
 }
 export default Customer;
+
